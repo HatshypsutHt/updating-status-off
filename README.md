@@ -1,6 +1,6 @@
 This Python script uses the pymysql library to connect to a MySQL database and performs the following actions:
 
-Connection Setup: The script initializes variables for database connection (host, user, password, db), but specific values are not provided and need to be entered.
+Connection Setup: The script initializes variables for database connection (host, user, password, db).
 
 Function update_duplicates_status: This function takes a database cursor, a list of duplicate article IDs, and a batch size for updates. It updates the status of articles to 'off' using batch processing. Batch processing reduces the number of database queries by updating the status for a large number of records at once.
 
